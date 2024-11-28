@@ -1,5 +1,6 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
+// so 'clsx' is a library that lets developers toggle classes inline easily without using a state to assist the decision
 
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
